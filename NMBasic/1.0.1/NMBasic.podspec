@@ -53,9 +53,6 @@ ss.source_files = 'NMBasic/BasicManagers/**/*.swift'
 
 ss.ios.frameworks = 'Foundation'
 ss.ios.frameworks = 'UIKit'
-ss.ios.frameworks = 'Instabug'
-
-ss.ios.vendored_frameworks = 'NMBasic/Frameworks/Instabug.framework'
 
 ss.dependency 'Alamofire', '~> 4.4'
 ss.dependency 'SwiftyJSON', '~> 4.0.0'
